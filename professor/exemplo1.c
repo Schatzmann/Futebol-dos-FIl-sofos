@@ -36,7 +36,7 @@ int main(int argc, char **argv) {
     else {
       sscanf(strtok(NULL, " \n"), "%d", &num_saltos);
       for(i = 0; i < num_saltos; i++)
-	sscanf(strtok(NULL, " \n"), "%d", &(pos_bola[i]));
+  sscanf(strtok(NULL, " \n"), "%d", &(pos_bola[i]));
     }
   }
 
@@ -49,7 +49,7 @@ int main(int argc, char **argv) {
     else {
       printf(" %d", num_saltos);
       for(i = 0; i < num_saltos; i++)
-	printf(" %d", pos_bola[i]);
+  printf(" %d", pos_bola[i]);
     }
   }
   printf("\n");
